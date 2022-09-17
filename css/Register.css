@@ -1,0 +1,45 @@
+.Root {
+    border-color: black;
+    margin: 40px;
+}
+
+.bazaar{
+    color: #4A2B22;
+    font-size: 500%;
+}
+.regist{
+    padding-left: 10px;
+    font-size: x-large;
+    
+}
+.headColor {
+    background-color: aqua;
+    
+}
+
+
+
+
+
+/*Testing Grounds*/
+.container{
+    background-color: yellowgreen;
+}
+.container-fluid{
+    background-color: aquamarine;
+}
+input-group{
+    background-color: yellow;
+}
+.top{
+    right: 50%;
+}
+.form-control{
+    margin-bottom: 20px;
+}
+.btn {
+    background-color: orangered;
+}
+.footercardpadding{
+    padding-right: 30px;
+}
