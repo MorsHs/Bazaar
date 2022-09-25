@@ -9,16 +9,17 @@
     <script>
     </script>
     <body>
-    <div class="container-fluid">
+    <div class="container-fluid h-25">
         <span class="bazaar">Bazzar</span>
         <span class="regist">Registration</span>
     </div>
-   <div class="container position-absolute offset-2 h-50">
+   <div class="container position-absolute offset-2 h-75">
         <div class="row">
-            <div class="col-4 offset-8 position-absolute start-0 bottom-0" style="border: 1px solid red;">
-                <div class="card">
+            <div class="col-4 offset-1 position-absolute start-0 bottom-0 w-75 h-75">
+                <div class="card ">
                     <div class="card-title">
                         <p class="bazaar">Bazaar</p>
+                        <hr>
                     </div>
                     <div class="card-body">
                         <div class="row">
@@ -31,14 +32,21 @@
                         <div class="row">
                             <div class="col">
                                     <div class="input-group">
-                                        <input class="form-control" type="text" name="password" id="passwordLabel" placeholder="Password">
+                                        <input class="form-control" type="password" name="password" id="passwordLabel" placeholder="Password">
                                     </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col">
-                                    <div class="input-group offset-5 w-25" style="border:1px solid red;">
-                                        <input class="btn" type="button" value="button">
+                                    <div class="input-group">
+                                        <input class="form-control" type="text" name="pnumber" id="pNumber" placeholder="Phone Number">
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                    <div class="input-group offset-5 w-25">
+                                        <input class="btn" type="button" value="submit">
                                     </div>
                             </div>
                         </div>
