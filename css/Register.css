@@ -12,6 +12,9 @@
     font-size: x-large;
     
 }
+.bold{
+    font-weight: bold;
+}
 
 
 
@@ -39,4 +42,11 @@ input-group{
 }
 .footercardpadding{
     padding-right: 30px;
+}
+.btn{
+    transition: ease-out 0.3;
+    
+    }
+.btn:hover{
+box-shadow: inset 300px aqua;
 }

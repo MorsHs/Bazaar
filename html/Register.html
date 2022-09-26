@@ -5,6 +5,7 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 <link rel="stylesheet" href="..\css\Register.css">
         <title>Bazaar Registration</title>
+        <link rel="icon" href="..\img\Logo\BAZAARLOGO.png" type="image/gif" sizes="16x16">
     </head>
     <script>
     </script>
@@ -13,39 +14,42 @@
         <span class="bazaar">Bazzar</span>
         <span class="regist">Registration</span>
     </div>
-   <div class="container position-absolute offset-2 h-50">
+   <div class="container position-absolute offset-3 h-50">
         <div class="row">
             <div class="col-4 offset-1 position-absolute start-0 bottom-0 w-75 h-75">
                 <div class="card w-75">
-                    <div class="card-title">
+                    <!-- <div class="card-title">
                         <p class="bazaar">Bazaar</p>
                         <hr>
-                    </div>
+                    </div> -->
                     <div class="card-body">
                         <div class="row">
-                            <div class="col">
+                            <div class="col-md-7">
+                                <label class="form-label bold" for="emailLabel">Register with Email</label>
                                     <div class="input-group">
-                                        <input class="form-control" type="text" name="email" id="emailLabel" placeholder="Email">
+                                        <input class="form-control" type="text" name="email" id="emailLabel" >
                                     </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col">
+                            <div class="col-md-7">
+                                <label class="form-label bold" for="passwordLabel">Password</label>
                                     <div class="input-group">
-                                        <input class="form-control" type="password" name="password" id="passwordLabel" placeholder="Password">
+                                        <input class="form-control" type="password" name="password" id="passwordLabel">
                                     </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col">
+                            <div class="col-md-7">
+                                <label class="form-label bold" for="pNumber">Phone Number</label>
                                     <div class="input-group">
-                                        <input class="form-control" type="text" name="pnumber" id="pNumber" placeholder="Phone Number">
+                                        <input class="form-control" type="text" name="pnumber" id="pNumber">
                                     </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col">
-                                    <div class="input-group offset-5 w-25">
+                            <div class="col-6">
+                                    <div class="input-group d-grid col-10 mx-4">
                                         <input class="btn btn-outline-light" type="button" value="Submit">
                                     </div>
                             </div>
@@ -56,6 +60,6 @@
             </div>
         </div>
    </div>
-        
+       
     </body> 
 </html>
