@@ -1,0 +1,22 @@
+.container{
+    background-color: rgb(209, 209, 209);
+    margin-top: 60px;
+}
+.card-footer{
+    color: black;
+}
+.container-fluid{
+    height:16%;
+    background-color: rgb(255, 155, 5);
+}
+.bazaar{
+    color: #4A2B22;
+    font-size: 500%;
+}
+.form-control{
+    margin-bottom: 20px;
+}
+.bottomfooterfix{
+    height: 16%;
+    margin-top: 40px;
+}

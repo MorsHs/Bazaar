@@ -12,10 +12,7 @@
     font-size: x-large;
     
 }
-.headColor {
-    background-color: aqua;
-    
-}
+
 
 
 
@@ -23,10 +20,10 @@
 
 /*Testing Grounds*/
 container{
-    background-color: yellowgreen;
+    background-color: rgb(255, 155, 5);
 }
 .container-fluid{
-    background-color: aquamarine;
+    background-color: rgb(255, 155, 5);
 }
 input-group{
     background-color: yellow;
