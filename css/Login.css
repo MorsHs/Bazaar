@@ -1,3 +1,4 @@
+/* bootstrap modded */
 .container{
     background-color: rgb(209, 209, 209);
     margin-top: 60px;
@@ -6,12 +7,22 @@
     color: black;
 }
 .container-fluid{
-    height:16%;
     background-color: rgb(255, 155, 5);
 }
+.btn{
+    background-color: orangered;
+}
+.button:hover{
+   background-color: aqua;
+}
+
+/* custom css */
 .bazaar{
     color: #4A2B22;
     font-size: 500%;
+}
+.secondaryheadtxt{
+    font-size: 16px;
 }
 .form-control{
     margin-bottom: 20px;
