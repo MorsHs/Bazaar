@@ -12,8 +12,8 @@
 .btn{
     background-color: orangered;
 }
-.button:hover{
-   background-color: aqua;
+button:hover{
+   background-color: rgb(0, 0, 0);
 }
 
 /* custom css */
@@ -22,7 +22,8 @@
     font-size: 500%;
 }
 .secondaryheadtxt{
-    font-size: 16px;
+    font-size: 25px;
+    color: #4A2B22;
 }
 .form-control{
     margin-bottom: 20px;
