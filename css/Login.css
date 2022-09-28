@@ -21,8 +21,8 @@ button:hover{
     color: #4A2B22;
     font-size: 500%;
 }
-.secondaryheadtxt{
-    font-size: 25px;
+.txt{
+    font-size: 10px;   
     color: #4A2B22;
 }
 .form-control{
