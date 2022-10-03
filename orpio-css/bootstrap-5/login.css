@@ -1,0 +1,100 @@
+
+body{
+    background-color: #fff;
+    /* margin: 0px;
+    padding: 0px;
+    width: 00px; */
+}
+
+/**
+margin sa taas iyang buo nga form
+*/
+.container{
+
+    margin-top: 50px;
+    
+}
+/**
+margin sa taas iyang buo nga form sumpay ni sa .container
+*/
+#main-contaner{
+
+    margin-top: 100px;
+}
+
+/**
+end sa .container og #main-container
+*/
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+    height: 30px;
+  }
+  
+  .icon {
+    padding: 8px;
+    background: black;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  
+  .input-field {
+    width: 90%;
+    padding: 10px;
+    outline: none;
+    height: 30px;
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+  
+  .input-field:focus {
+    border: 2px solid dodgerblue;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+    margin-left: 77%;
+    margin-top: 5px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+
+  p{
+
+    text-align: center;
+  }
+
+  
+
+
+  #navBar{
+    border-bottom-width: 2px;
+    border-bottom-color: #ccc;
+    border-bottom-style: solid;
+    padding: 10px;
+    margin-bottom: 12px;
+    background-color: grey;
+    /* background-color: #fff; */
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
