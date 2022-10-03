@@ -1,0 +1,36 @@
+.slideshow{
+  
+    width: 200px;
+    height: 150px;
+    background: url(1.jpg);
+    margin: 250px 0px 0px 5px;
+    /* top right btm left */
+    animation: slideshow 20s infinite;
+    border-radius: 5px 10px 5px 10px;
+  }
+  
+  @keyframes slideshow {
+  
+    25%{
+      background: url(1.jpg);
+    }
+  
+    35%{
+      background: url(2.png);
+    }
+    45%{
+      background: url(3.jpg);
+    }
+    55%{
+      background: url(4.jpg);
+    }
+    65%{
+      background: url(5.jpg);
+    }
+    75%{
+      background: url(6.jpg);
+    }
+    100%{
+      background: url(7.jpg);
+    }
+  }
